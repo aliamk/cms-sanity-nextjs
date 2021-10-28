@@ -1,0 +1,59 @@
+.main {
+  margin: auto;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #23201f;
+  margin-bottom: 50px;
+  background-color: #4d96f7;
+  border-radius: 0px 0px 5px 5px;
+}
+.main div {
+  margin: 25px;
+  cursor: pointer;
+}
+.main div:hover {
+  color: rgb(168, 168, 168);
+}
+
+.logo_container {
+  position: relative;
+  width: 3.25rem;
+  height: 1.56rem;
+  max-width: auto;
+  max-height: auto;
+  cursor: pointer;
+}
+
+.main h1 {
+  font-size: 1rem;
+}
+
+@media only screen and (min-width: 800px) {
+  .main {
+    max-width: calc(100vw - 50px);
+  }
+  .logo_container {
+    width: 8.25rem;
+    height: 4.125rem;
+  }
+
+  .main h1 {
+    font-size: 1.563rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .main {
+    max-width: 1440px;
+  }
+  .logo_container {
+    width: 12.25rem;
+    height: 6.125rem;
+  }
+
+  .main h1 {
+    font-size: 1.75rem;
+  }
+}
